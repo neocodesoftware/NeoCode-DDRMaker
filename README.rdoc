@@ -1,0 +1,40 @@
+
+      _   _             _____          _            
+     | \ | |           / ____|        | |           
+     |  \| | ___  ___ | |     ___   __| | ___       
+     | . ` |/ _ \/ _ \| |    / _ \ / _` |/ _ \      
+     | |\  |  __/ (_) | |___| (_) | (_| |  __/      
+     |_| \_|\___|\___/ \_____\___/ \__,_|\___|      
+  _____  _____  _____  __  __       _             
+ |  __ \|  __ \|  __ \|  \/  |     | |            
+ | |  | | |  | | |__) | \  / | __ _| | _____ _ __ 
+ | |  | | |  | |  _  /| |\/| |/ _` | |/ / _ \ '__|
+ | |__| | |__| | | \ \| |  | | (_| |   <  __/ |   
+ |_____/|_____/|_|  \_\_|  |_|\__,_|_|\_\___|_|   
+                                                  
+                                                  
+
+		
+== NeoCode DDRMaker
+The ONLY automated utility to create FileMaker DDRs
+
+Imagine if you had a fresh DDR already built when you needed it?
+
+Have the NeoCode-DDRMaker scheduled to build DDRs everynight - so you'll have a fresh baked DDR everyday when you need it.
+
+== Process
+# NeoCode-DDRMaker start using the Windows Scheduler
+# NeoCode-DDRMaker opens your specific database files
+# NeoCode-DDRMaker creates DDR
+# NeoCode-DDRMaker uploads the DDR to your FTP server
+
+== Requirements
+# FileMaker Pro Advanced 11+
+# AutoHotKey
+# Windows 7+
+
+== Configuration
+# Install http://www.autohotkey.com
+# Configure parameters at the top of ddrmaker.ahk
+# Configure Task Scheduler to run the script
+
