@@ -24,17 +24,24 @@ Have the NeoCode-DDRMaker scheduled to build DDRs everynight - so you'll have a 
 
 == Process
 # NeoCode-DDRMaker start using the Windows Scheduler
+
 # NeoCode-DDRMaker opens your specific database files
+
 # NeoCode-DDRMaker creates DDR
+
 # NeoCode-DDRMaker uploads the DDR to your FTP server
 
 == Requirements
 # FileMaker Pro Advanced 11+
+
 # AutoHotKey
+
 # Windows 7+
 
 == Configuration
 # Install http://www.autohotkey.com
+
 # Configure parameters at the top of ddrmaker.ahk
+
 # Configure Task Scheduler to run the script
 
