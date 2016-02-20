@@ -23,25 +23,31 @@ Imagine if you had a fresh DDR already built when you needed it?
 Have the NeoCode-DDRMaker scheduled to build DDRs everynight - so you'll have a fresh baked DDR everyday when you need it.
 
 == Process
-# NeoCode-DDRMaker start using the Windows Scheduler
-
-# NeoCode-DDRMaker opens your specific database files
-
-# NeoCode-DDRMaker creates DDR
-
-# NeoCode-DDRMaker uploads the DDR to your FTP server
+1 NeoCode-DDRMaker start using the Windows Scheduler
+2 NeoCode-DDRMaker opens your specific database files
+3 NeoCode-DDRMaker creates DDR
+4 NeoCode-DDRMaker uploads the DDR to your FTP server
 
 == Requirements
-# FileMaker Pro Advanced 11+
+1 FileMaker Pro Advanced 11+
+2 AutoHotKey
+3 Windows 7+
+4 Understand the security constraints
 
-# AutoHotKey
+== Security
+There are serious security considerations:
 
-# Windows 7+
+1 DDR requiring [Full Access] user password
+2 To automate the process Autohotkey uses the user and password
+3 The user and password is stored in PLAINTEXT
+
+Therefor the machine running this process needs to be secure.
 
 == Configuration
-# Install http://www.autohotkey.com
+1 Install http://www.autohotkey.com
+2 Configure parameters at the top of ddrmaker.ahk
+3 Configure Task Scheduler to run the script
 
-# Configure parameters at the top of ddrmaker.ahk
-
-# Configure Task Scheduler to run the script
+== To Do
+* automatically import into BaseElements or Inspector
 
