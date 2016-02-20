@@ -30,22 +30,29 @@ Have the NeoCode-DDRMaker scheduled to build DDRs everynight - so you'll have a 
 
 == Requirements
 1 FileMaker Pro Advanced 11+
+
 2 AutoHotKey
+
 3 Windows 7+
+
 4 Understand the security constraints
 
 == Security
 There are serious security considerations:
 
 1 DDR requiring [Full Access] user password
+
 2 To automate the process Autohotkey uses the user and password
+
 3 The user and password is stored in PLAINTEXT
 
 Therefor the machine running this process needs to be secure.
 
 == Configuration
 1 Install http://www.autohotkey.com
+
 2 Configure parameters at the top of ddrmaker.ahk
+
 3 Configure Task Scheduler to run the script
 
 == To Do
